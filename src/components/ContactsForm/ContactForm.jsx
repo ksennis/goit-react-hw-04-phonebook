@@ -8,7 +8,7 @@ export const ContactForm = ({ onAddContact }) => {
     const [name, setName] = useState('');
     const [number, setNumber] = useState('');
 
-   const onChangeName = evt => {
+    const onChangeName = evt => {
         setName(evt.target.value);
     };
 
