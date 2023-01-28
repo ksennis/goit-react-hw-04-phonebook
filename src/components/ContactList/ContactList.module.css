@@ -1,0 +1,7 @@
+.contactItem:not(:first-child) {
+    margin-top: 10px;
+}
+
+.deleteButton {
+    margin-left: 20px;
+}
