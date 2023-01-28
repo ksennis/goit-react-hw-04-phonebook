@@ -19,7 +19,7 @@ export const App = () => {
 
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
-  }, [contacts.length]);
+  }, [contacts]);
 
   const handleChange = evt => {
     setFilter(evt.target.value);
