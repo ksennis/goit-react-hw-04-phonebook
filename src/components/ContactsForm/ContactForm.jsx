@@ -23,8 +23,8 @@ export const ContactForm = ({ onAddContact }) => {
 
         onAddContact(contact);
 
-        setNumber(number);
-        setName(name);
+        setNumber('');
+        setName('');
     };
 
     return (
